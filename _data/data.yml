@@ -1,0 +1,250 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Alireza Fadakar
+    tagline: M.Sc student in University of Tehran
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: alireza.fadakar@ut.ac.ir
+    phone: 09391919890
+    timezone: Iran/Tehran Timezone
+    citizenship:
+    website:  #do not add http://
+    linkedin: alireza-fadakar-7251801b7
+    xing:
+    github: 
+    telegram: Ali_reza_98 # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Persian
+          level: Native
+
+        - idiom: English
+          level: Professional
+
+    interests:
+      title: Research Interests
+      info:
+        - item: RIS-assisted communication, Localization, Synchronization, 6G
+          link:
+
+        - item: Signal Processing (DOA estimation, Localization, Sensing, Tracking)
+          link: 
+
+        - item: Machine Learning (Deep Learning, Reinforcement Learning)
+          link:
+
+        - item: Optimization
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+        Alireza Fadakar completed his B.Sc. in electrical engineering from the University of Tehran, Iran, in 2020. 
+        He is currently pursuing a Master's degree in the same field at the University of Tehran. 
+        His research interests include the application of machine learning for wireless communications, 
+        RIS-assisted communications, signal processing, and optimization.
+education:
+    title: Education
+    info:
+      - degree: M.Sc in Electrical Engineering
+        university: University of Tehran
+        time: Sep. 2020 - Sep. 2023
+        details: |
+            - Specialized in Communication - System
+            - GPA: 4 (18.73/20)
+            - Thesis Title: Reconfigurable Intelligent Surface Assisted 3D Localization with Deep Learning Based DOA Estimation  
+            - Supervisor: Dr. Maryam Sabbaghian
+      - degree: B.Sc in Electrical Engineering
+        university: University of Tehran
+        time: Sep. 2016 - Jun. 2020
+        details: |
+            - Specialized in Telecommunication
+            - GPA: 3.8973 (18.06/20)
+            - Thesis Title: Machine Learning Methods for Direction of Arrival Estimation of Radio Signals
+            - Supervisor: Dr. Ali Olfat
+
+certifications:
+      title: Awards and Honors
+      list:
+        - name: Member of Iran's national Elites Foundation
+          start: 2016
+          end: Present
+          organization: 
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details: |
+
+        - name: Ranked within the top 15 out of 110 undergraduate students
+          start: 2016
+          end: 2020
+          organization: University of Tehran
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details: |
+            Ranked 1st out of all students in the communication-system major
+
+        - name: Awarded a studentship funded by Iran's National Elites Foundation
+          start: 2016
+          end: 2018
+          organization:
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details: |
+
+        - name: Selected among a limited number of individuals to serve as a grader at the national and third round math olympiad
+          start: 
+          end: 
+          organization: 2020 - 2021
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details: |
+          
+
+
+projects:
+    title: Research Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: RIS assisted 3D User Tracking with Deep Reinforcement Learning [Ongoing]
+        link: "#hook"
+        tagline: "- A new algorithm is proposed for 3D tracking of a user in mmWave RIS assisted wireless system using deep reinforcement learning."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications (Under Review)
+    intro: |
+      The following manuscripts are under peer review.
+    papers:
+      - title: "Deep Learning Based Multi-RIS assisted 3D Localization and Synchronization: A Low Complexity Approach"
+        link: 
+        authors: Alireza Fadakar, Maryam Sabbaghian
+        conference: 
+
+      - title: "Deep Learning Based 2D-DOA Estimation Using L-Shaped Arrays"
+        link: 
+        authors: Alireza Fadakar, Ashkan Jafari, Parisa Tavana, Reza Jahani, Saeed Akhavan
+        conference: 
+
+      - title: "Deep Learning Aided Multi-Source Passive 3D AOA Wireless Positioning Using a Moving Receiver: A Low Complexity Approach"
+        link: 
+        authors: Alireza Fadakar, Amir Mansourian, Saeed Akhavan
+        conference: 
+
+      - title: "Sparse Recovery Based Multi-Source 3D Passive Robust Localization Using a Moving Receiver"
+        link: 
+        authors: Amir Mansourian, Alireza Fadakar, Saeed Akhavan
+        conference: 
+
+
+experiences:
+    title: Research Projects
+    info:
+      - role: "RIS assisted 3D User Tracking with Deep Reinforcement Learning"
+        time: 2023 - Present
+        company: University of Tehran
+        details: |
+            - A new algorithm is proposed for 3D tracking of a user in mmWave RIS assisted wireless system using deep reinforcement learning.
+      - role: "Deep Learning Based Reconfigurable Intelligent Surfaces Assisted Joint 3D-localization and Synchronization: A Low Complexity Approach"
+        time: 
+        company: 2020 - 2023
+        details: |
+            - Supervisor: Dr. Maryam Sabbaghian
+            - Proposed a low-complexity method for jointly estimating the 3D-position and the clock offset of a user equipment (UE) in the downlink, using multiple RISs and a single base station (BS).
+            - OFDM symbols are used for communication between UE and the BS.
+            - The proposed method closely approaches the theoretical Cramer Rao Lower Bound (CRLB) values.
+            - Extensive simulations and complexity analysis demonstrates the effectiveness of the proposed method over the state-of-the-art ones.
+      - role: "Deep Learning Aided Multi-Source Passive 3D AOA Wireless Positioning Using a Moving Receiver: A Low Complexity Approach"
+        time: 
+        company: 2021 - 2023
+        details: |
+            - Supervisor: Dr.~Saeed Akhavan
+            - The challenging problem of three dimensional (3D) AOA localization is investigated with a moving receiver for locating multiple sources, which has not received much attention in recent studies.
+            - Three novel low-complexity deep learning based networks are proposed to initially estimate the elevation and azimuth AOAs of sources.
+            - An efficient 2D maximum likelihood (ML) based module is proposed to refine the obtained estimations using alternating projection technique and Nelder-Mead algorithm.
+            - A novel multi-source localization approach is proposed for locating multiple sources using a moving array. An efficient gradient projection (GP) based algorithm is proposed to solve the optimization problem.
+      - role: "Sparse Recovery Based Multi-Source 3D Passive Robust Localization Using a Moving Receiver"
+        time: 
+        company: 2021 - 2023
+        details: |
+            - Supervisor: Dr.~Saeed Akhavan
+            - A novel sparse recovery based 3D localization method is proposed for locating multiple sources using a moving array. The number of sources can be greater than the number of the sensors of the array.
+            - An iterative energy detection approach to leverage the sparse characteristics of the received signal, effectively eliminating the presence of noisy samples within the signal.
+            - To estimate the angles of arrival (AOAs), the 2D-MUSIC method is employed to obtain a preliminary estimation of the elevation and azimuth AOAs of the sources. Subsequently, an efficient iterative algorithm is proposed that combines sparse recovery, phase smoothing, and the K-SVD algorithm techniques to achieve precise AOA estimation. These AOAs are then used to estimate the positions of sources.
+      - role: "Deep Learning Based 2D-DOA Estimation Using L-Shaped Arrays"
+        time: 
+        company: 2022 - 2023
+        details: |
+            - Supervisor: Dr.~Saeed Akhavan
+            - A novel framework consisting of two classification neural networks for multi-2D-DOA estimation is proposed for both coherent and non-coherent environments. 
+            - Unlike previous convolutional neural network (CNN) based studies, a convolutional block attention module (CBAM) is used to achieve improved detection and estimation of DOAs of incoming signals with respect to former studies.
+            - The proposed framework not only estimates the pairing between elevation and azimuth DOAs, but also estimates the number of incoming signals, which is itself an important task study.
+
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: MATLAB
+        level: 98%
+
+      - name: Latex
+        level: 90%
+
+      - name: Office (Word, Powerpoint)
+        level: 90%
+
+      - name: R
+        level: 75%
+
+      - name: HTML5 & CSS
+        level: 85%
+
+      - name: Javascript
+        level: 75%
+
+footer: >
+    Alireza Fadakar
